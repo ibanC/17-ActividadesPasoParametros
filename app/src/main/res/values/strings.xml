@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">17-ActividadesPasoParametros</string>
+    <string name="actividad1">ACTIVIDAD 01</string>
+    <string name="actividad2">ACTIVIDAD 02</string>
+    <string name="actividad3">ACTIVIDAD 03</string>
+    <string name="actividad4">ACTIVIDAD 04</string>
+    <string name="salir">SALIR</string>
+    <!--Actividad1-->
+    <string name="nombre">Nombre:</string>
+    <string name="apellidos">Apellidos:</string>
+    <string name="verificar">Verificar</string>
+    <string name="aceptar">Aceptas condiciones:</string>
+    <string name="volver">Volver</string>
+    <!--Actividad_aceptar_condiciones-->
+    <string name="aceptar2">Aceptar</string>
+    <string name="rechazar">Rechazar</string>
+    <!--Actividad2-->
+    <string name="conectar">Conectar</string>
+    <string name="usuario">Usuario</string>
+    <string name="contrasena">Contraseña</string>
+    <string name="boton">INICIAR SESION</string>
+    <string name="olvidar">¿Olvidaste tu contraseña?</string>
+    <!--Actividad3-->
+    <string name="calculadora">Calculadora Simple</string>
+    <string name="suma">SUMA</string>
+    <string name="resultado">RESULTADO</string>
+    <string name="correctas">PREGUNTAS CORRECTAS:</string>
+    <string name="incorrectas">INCORRECTAS:</string>
+    <!--actividad4-->
+    <string name="introducirDatos">Introduce tus datos:</string>
+
+</resources>
