@@ -28,5 +28,13 @@
     <string name="incorrectas">INCORRECTAS:</string>
     <!--actividad4-->
     <string name="introducirDatos">Introduce tus datos:</string>
-
+    <string name="nombre4">Nombre:</string>
+    <string name="apellidosejer4">Apellidos:</string>
+    <string name="sexo">Sexo:</string>
+    <string name="masculino">Masculino:</string>
+    <string name="femenino">Femenino:</string>
+    <string name="aficiones">Aficiones:</string>
+    <string name="musica">Musica:</string>
+    <string name="lectura">Lectura:</string>
+    <string name="deportes">Viajar:</string>
 </resources>

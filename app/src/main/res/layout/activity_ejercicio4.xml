@@ -10,9 +10,102 @@
     tools:context="com.example.dm2.a17_actividadespasoparametros.Ejercicio4">
     
     <TextView
+        android:id="@+id/introDatos"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:textAppearanceLarge"
-        android:text="@"/>
+        android:text="@string/introducirDatos"/>
+    <TextView
+        android:id="@+id/nombreejer4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nombre4"
+        android:layout_below="@+id/introDatos"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"/>
+    <EditText
+        android:id="@+id/textonombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/nombreejer4"
+        android:layout_marginTop="@dimen/activity_vertical_margin"/>
+    <TextView
+        android:id="@+id/apellidosejer4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/apellidosejer4"
+        android:layout_below="@+id/nombreejer4"
+        android:textSize="20dp"
+        android:layout_marginTop="27dp"/>
+    <EditText
+        android:id="@+id/textoapellido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/apellidosejer4"
+        android:layout_below="@+id/textonombre"
+        android:layout_marginTop="@dimen/activity_vertical_margin"/>
+    <TextView
+        android:id="@+id/sexo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sexo"
+        android:layout_below="@+id/apellidosejer4"
+        android:textSize="20dp"
+        android:layout_marginTop="27dp"/>
+
+    <RadioGroup
+        android:id="@+id/RadioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/apellidosejer4"
+        android:layout_toRightOf="@+id/sexo">
+
+        <RadioButton
+            android:id="@+id/rbMasculino"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="27dp"
+            android:text="@string/masculino"/>
+        <RadioButton
+            android:id="@+id/rbFemenino"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="27dp"
+            android:text="@string/femenino"/>
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/lblaficiones"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/aficiones"
+        android:layout_below="@+id/RadioGroup"
+        android:textSize="20dp"
+        android:layout_marginTop="27dp"/>
+
+    <CheckBox
+        android:id="@+id/chkmusica"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/RadioGroup"
+        android:layout_toRightOf="@+id/lblaficiones"
+        android:layout_marginTop="30dp"
+        android:text="@string/musica"/>
+    <CheckBox
+        android:id="@+id/chklectura"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/chkmusica"
+        android:layout_toRightOf="@+id/lblaficiones"
+        android:layout_marginTop="30dp"
+        android:text="@string/lectura"/>
+
+
+
+
+
+
 
 </RelativeLayout>
