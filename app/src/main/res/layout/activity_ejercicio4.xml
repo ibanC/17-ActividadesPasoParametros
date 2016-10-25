@@ -94,18 +94,37 @@
         android:layout_marginTop="30dp"
         android:text="@string/musica"/>
     <CheckBox
-        android:id="@+id/chklectura"
+    android:id="@+id/chklectura"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/chkmusica"
+    android:layout_toRightOf="@+id/lblaficiones"
+    android:layout_marginTop="30dp"
+    android:text="@string/lectura"/>
+
+    <CheckBox
+        android:id="@+id/chkdeportes"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/chkmusica"
+        android:layout_below="@+id/chklectura"
+        android:layout_toRightOf="@+id/lblaficiones"
+        android:layout_marginTop="30dp"
+        android:text="@string/deportes"/>
+    <CheckBox
+        android:id="@+id/chkviajar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/chkdeportes"
         android:layout_toRightOf="@+id/lblaficiones"
         android:layout_marginTop="30dp"
         android:text="@string/lectura"/>
 
-
-
-
-
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/chkviajar"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:text="@string/enviar"/>
 
 
 </RelativeLayout>

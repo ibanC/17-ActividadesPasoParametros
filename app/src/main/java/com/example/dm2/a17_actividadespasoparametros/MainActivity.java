@@ -47,6 +47,14 @@ public class MainActivity extends AppCompatActivity {
                     Intent intent=new Intent(MainActivity.this,Actividad3.class);
                     startActivity(intent);
                 }
+                else
+                {
+                    if(v.getId()==b4.getId())
+                    {
+                        Intent intent=new Intent(MainActivity.this,Ejercicio4.class);
+                        startActivity(intent);
+                    }
+                }
             }
         }
     }

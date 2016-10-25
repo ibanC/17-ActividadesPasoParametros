@@ -36,5 +36,7 @@
     <string name="aficiones">Aficiones:</string>
     <string name="musica">Musica:</string>
     <string name="lectura">Lectura:</string>
-    <string name="deportes">Viajar:</string>
+    <string name="deportes">Deportes:</string>
+    <string name="viajar">Viajar:</string>
+    <string name="enviar">Enviar</string>
 </resources>
