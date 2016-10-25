@@ -71,7 +71,7 @@
             android:id="@+id/rbFemenino"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="27dp"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
             android:text="@string/femenino"/>
 
     </RadioGroup>
@@ -83,7 +83,7 @@
         android:text="@string/aficiones"
         android:layout_below="@+id/RadioGroup"
         android:textSize="20dp"
-        android:layout_marginTop="27dp"/>
+        android:layout_marginTop="@dimen/activity_vertical_margin"/>
 
     <CheckBox
         android:id="@+id/chkmusica"
@@ -91,7 +91,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/RadioGroup"
         android:layout_toRightOf="@+id/lblaficiones"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="20dp"
         android:text="@string/musica"/>
     <CheckBox
     android:id="@+id/chklectura"
@@ -99,7 +99,7 @@
     android:layout_height="wrap_content"
     android:layout_below="@+id/chkmusica"
     android:layout_toRightOf="@+id/lblaficiones"
-    android:layout_marginTop="30dp"
+    android:layout_marginTop="@dimen/activity_vertical_margin"
     android:text="@string/lectura"/>
 
     <CheckBox
@@ -108,7 +108,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/chklectura"
         android:layout_toRightOf="@+id/lblaficiones"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
         android:text="@string/deportes"/>
     <CheckBox
         android:id="@+id/chkviajar"
@@ -116,7 +116,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/chkdeportes"
         android:layout_toRightOf="@+id/lblaficiones"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
         android:text="@string/lectura"/>
 
     <Button

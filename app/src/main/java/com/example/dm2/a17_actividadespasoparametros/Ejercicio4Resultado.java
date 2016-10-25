@@ -12,16 +12,16 @@ public class Ejercicio4Resultado extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ejercicio4_resultado);
 
-        lblnombre=(TextView)findViewById(R.id.textonombre);
-        lblapellidos=(TextView)findViewById(R.id.textoapellido);
-        lblsexo=(TextView)findViewById(R.id.sex) ;
-        lblaficiones=(TextView)findViewById(R.id.aficiones);
-
         Bundle extras=getIntent().getExtras();
         String nombre=extras.getString("nom");
         String apellidos=extras.getString("ape");
         String sexo=extras.getString("sexo");
         String aficiones=extras.getString("aficiones");
+
+        lblnombre=(TextView)findViewById(R.id.textonombre);
+        lblapellidos=(TextView)findViewById(R.id.textoapellido);
+        lblsexo=(TextView)findViewById(R.id.sex) ;
+        lblaficiones=(TextView)findViewById(R.id.aficiones);
 
         if(aficiones.equals(""))
         {
