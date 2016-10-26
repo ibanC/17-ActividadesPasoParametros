@@ -42,29 +42,23 @@ public class Ejercicio4 extends AppCompatActivity {
                 aficiones = "";
                 if (chkMusica.isChecked())
                 {
-                    aficiones +=chkMusica.getText().toString();
+                    aficiones +=chkMusica.getText().toString()+" ";
                 }
-                else
+                if (chkLectura.isChecked())
                 {
-                    if (chkLectura.isChecked())
-                    {
-                        aficiones +=chkLectura.getText().toString();
-                    }
-                    else
-                    {
-                        if (chkDeportes.isChecked())
-                        {
-                            aficiones +=chkDeportes.getText().toString();
-                        }
-                        else
-                        {
-                            if (chkViajar.isChecked())
-                            {
-                                aficiones +=chkViajar.getText().toString();
-                            }
-                        }
-                    }
+                        aficiones +=chkLectura.getText().toString()+" ";
                 }
+
+                if (chkDeportes.isChecked())
+                {
+                            aficiones +=chkDeportes.getText().toString()+" ";
+                }
+                if (chkViajar.isChecked())
+                {
+                    aficiones +=chkViajar.getText().toString()+" ";
+                }
+
+
                 nombre = txtNombre.getText().toString();
                 apellidos = txtApellidos.getText().toString();
                 sexo = "";

@@ -117,7 +117,7 @@
         android:layout_below="@+id/chkdeportes"
         android:layout_toRightOf="@+id/lblaficiones"
         android:layout_marginTop="@dimen/activity_vertical_margin"
-        android:text="@string/lectura"/>
+        android:text="@string/viajar"/>
 
     <Button
         android:id="@+id/butEnviar"

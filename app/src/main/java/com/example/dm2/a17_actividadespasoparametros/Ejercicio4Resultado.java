@@ -2,6 +2,7 @@ package com.example.dm2.a17_actividadespasoparametros;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.TextView;
 
 public class Ejercicio4Resultado extends AppCompatActivity {
@@ -18,20 +19,27 @@ public class Ejercicio4Resultado extends AppCompatActivity {
         String sexo=extras.getString("sexo");
         String aficiones=extras.getString("aficiones");
 
-        lblnombre=(TextView)findViewById(R.id.textonombre);
-        lblapellidos=(TextView)findViewById(R.id.textoapellido);
+        lblnombre=(TextView)findViewById(R.id.nom);
+        lblapellidos=(TextView)findViewById(R.id.ape);
         lblsexo=(TextView)findViewById(R.id.sex) ;
         lblaficiones=(TextView)findViewById(R.id.aficiones);
 
         if(aficiones.equals(""))
         {
-            aficiones="No tienes ninguna aficion de las disponibles";
+            lblaficiones.setText("No tienes ninguna aficion de las disponibles");
+        }
+        else
+        {
+            aficiones="Tus aficiones son "+aficiones;
+            lblaficiones.setText(aficiones);
+
         }
 
         lblnombre.setText(lblnombre.getText()+" "+nombre);
         lblapellidos.setText(lblapellidos.getText()+" "+apellidos);
         lblsexo.setText(lblsexo.getText()+" "+sexo);
-        lblaficiones.setText(lblaficiones.getText()+" "+aficiones);
+        lblaficiones.setText(""+" "+aficiones);
 
     }
+
 }
