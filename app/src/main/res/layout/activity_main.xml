@@ -37,6 +37,13 @@
         android:layout_marginTop="10dp"
         android:onClick="click"/>
     <Button
+        android:id="@+id/but5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/actividad5"
+        android:layout_marginTop="10dp"
+        android:onClick="click"/>
+    <Button
         android:id="@+id/salir"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

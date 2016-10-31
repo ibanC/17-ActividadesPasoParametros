@@ -26,7 +26,8 @@ public class Ejercicio4Resultado extends AppCompatActivity {
 
         if(aficiones.equals(""))
         {
-            lblaficiones.setText("No tienes ninguna aficion de las disponibles");
+            aficiones="No tienes ninguna aficion de las disponibles";
+            lblaficiones.setText(aficiones);
         }
         else
         {

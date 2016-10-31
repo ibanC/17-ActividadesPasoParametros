@@ -54,6 +54,10 @@ public class MainActivity extends AppCompatActivity {
                         Intent intent=new Intent(MainActivity.this,Ejercicio4.class);
                         startActivity(intent);
                     }
+                    else {
+                        Intent intent=new Intent(MainActivity.this,Ejercicio5.class);
+                        startActivity(intent);
+                    }
                 }
             }
         }

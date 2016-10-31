@@ -28,7 +28,11 @@
             android:label="@string/calculadora" />
         <activity android:name=".Activity3Resultado" />
         <activity android:name=".Ejercicio4" />
-        <activity android:name=".Ejercicio4Resultado"></activity>
+        <activity android:name=".Ejercicio4Resultado" />
+        <activity
+            android:name=".Ejercicio5"
+            android:label="Compra" />
+        <activity android:name=".Ejercicio5Resultado"></activity>
     </application>
 
 </manifest>

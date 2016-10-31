@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.dm2.a17_actividadespasoparametros.Ejercicio5">
+
+
+    <TextView
+        android:id="@+id/lista"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:text="@string/ListaCompra"/>
+    <TextView
+        android:id="@+id/Tienda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Tienda"
+        android:layout_below="@+id/lista"
+        android:textSize="20dp"
+        android:layout_marginTop="@dimen/activity_vertical_margin"/>
+    <EditText
+        android:id="@+id/lugar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/Tienda"
+        android:layout_below="@+id/lista"
+        android:layout_marginTop="@dimen/activity_vertical_margin"/>
+
+
+    <TextView
+        android:id="@+id/lblproductos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/productos"
+        android:layout_below="@+id/Tienda"
+        android:textSize="20dp"
+        android:layout_marginTop="@dimen/activity_vertical_margin"/>
+
+    <CheckBox
+        android:id="@+id/chkleche"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Tienda"
+        android:layout_toRightOf="@+id/lblproductos"
+        android:layout_marginTop="20dp"
+        android:text="@string/leche"/>
+    <CheckBox
+        android:id="@+id/chkpan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/chkleche"
+        android:layout_toRightOf="@+id/lblproductos"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:text="@string/pan"/>
+
+    <CheckBox
+        android:id="@+id/chkpasta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/chkpan"
+        android:layout_toRightOf="@+id/lblproductos"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:text="@string/pasta"/>
+    <CheckBox
+        android:id="@+id/chkpescado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/chkpasta"
+        android:layout_toRightOf="@+id/lblproductos"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:text="@string/pescado"/>
+
+    <Button
+        android:id="@+id/butConfirmar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/chkpescado"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:text="@string/confirmar"/>
+
+</RelativeLayout>

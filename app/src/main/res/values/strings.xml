@@ -4,6 +4,7 @@
     <string name="actividad2">ACTIVIDAD 02</string>
     <string name="actividad3">ACTIVIDAD 03</string>
     <string name="actividad4">ACTIVIDAD 04</string>
+    <string name="actividad5">ACTIVIDAD 05</string>
     <string name="salir">SALIR</string>
     <!--Actividad1-->
     <string name="nombre">Nombre:</string>
@@ -39,4 +40,13 @@
     <string name="deportes">Deportes</string>
     <string name="viajar">Viajar</string>
     <string name="enviar">Enviar</string>
+    <!--actividad5-->
+    <string name="ListaCompra">Lista de la compra:</string>
+    <string name="Tienda">Tienda:</string>
+    <string name="confirmar">Confirmar</string>
+    <string name="productos">Productos:</string>
+    <string name="leche">Leche</string>
+    <string name="pan">Pan</string>
+    <string name="pasta">Pasta</string>
+    <string name="pescado">Pescado</string>
 </resources>
